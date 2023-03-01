@@ -94,7 +94,6 @@ function UserInput() {
   }, [user?.email, navigate, user])
 
   return <div className="bg-img">
-    <Header />
     <div style={{ marginBottom: '30px', marginTop: '30px', minHeight: '75vh' }} className="container">
       <h3 className="header-inner_title login-inner_title">Авторизация</h3>
       <hr className="hr-viss" />
@@ -116,7 +115,6 @@ function UserInput() {
         <button disabled={!formValid} onClick={(e) => getUsers(e)} className="btn-class-v2">Войти</button>
       </Form>
     </div>
-    <Footer />
   </div>
 }
 

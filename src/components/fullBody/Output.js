@@ -156,8 +156,6 @@ function Output() {
     }, [user]);
 
     return <div className="bg-img">
-        <Header />
-        <Chat />
         <div style={{ minHeight: '80vh' }} className="container">
             <div className="page-container-2 page-container--bg_transparent">
                 <div className="account-wrap__heading">
@@ -331,7 +329,6 @@ function Output() {
                 </div>
             </div>
         </div>
-        <Footer />
     </div>
 }
 

@@ -176,8 +176,6 @@ function Deal() {
 
   return <div className="bg-img">
     <audio ref={audioPlayer} src={sound} />
-    <Header />
-    <Chat />
     <div style={{ marginBottom: '20px', marginTop: "30px" }} className='container heiggg'>
       <div className="message-body">
         <div className="posishnNameButton">
@@ -275,7 +273,6 @@ function Deal() {
         </div>
       </div>
     </div>
-    <Footer />
   </div>
 }
 

@@ -145,7 +145,6 @@ function Login() {
   }, [user?.email, navigate, user])
 
   return <div className="bg-img">
-    <Header />
     <div style={{ marginTop: '30px', marginBottom: '30px', minHeight: '75vh' }} className="container">
       <h3 className="header-inner_title login-inner_title">Регистрация</h3>
       <hr className="hr-viss" />
@@ -184,7 +183,6 @@ function Login() {
 
       </Form>
     </div>
-    <Footer />
   </div>
 }
 

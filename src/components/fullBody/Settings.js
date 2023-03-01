@@ -122,8 +122,6 @@ function Settings() {
     }, [newPassword, passwordV2, user.password, NewPasswordError])
 
     return <div className="bg-img">
-        <Header />
-        <Chat />
         <div style={{ paddingBottom: "117px", marginTop: '30px', marginBottom: '110px', minHeight: '70vh' }} className="container">
             <h3 className="header-inner_title login-inner_title">Настройки</h3>
             <hr className="hr-viss" />
@@ -161,7 +159,6 @@ function Settings() {
                 </Form>
             </div>
         </div>
-        <Footer />
     </div>
 }
 

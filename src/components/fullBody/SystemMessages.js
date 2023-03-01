@@ -99,9 +99,7 @@ function SystemMessages() {
     }, [user]);
 
     return <div className="bg-img">
-        <Header />
         <div style={{ marginTop: '30px' }} className="container heiggg">
-            <Chat />
             <h3 style={{ borderBottom: "1px solid rgb(85, 85, 88)" }} className="login-inner_title" onClick={() => console.log(checkAlertSystemMessage, user?.systemMessage)}>Системные сообщения</h3>
             {checkAlertSystemMessage || user?.systemMessage === 'true' ?
                 <div className="message-flex">
@@ -134,7 +132,6 @@ function SystemMessages() {
                 </div> :
                 ""}
         </div>
-        <Footer />
     </div>
 }
 

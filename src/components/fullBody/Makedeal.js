@@ -133,8 +133,6 @@ function Makedeal() {
     }, [user]);
 
     return <div className="bg-img">
-        <Header />
-        <Chat />
         <div style={{ marginTop: '20px', marginBottom: '20px' }} className="container">
             <div className="name-add_sell">
                 <div className="form-size-flex">
@@ -237,7 +235,6 @@ function Makedeal() {
             </div>
             <button disabled={!checked} className='btn-class-v3' onClick={createDeal}>Создать сделку</button>
         </div>
-        <Footer />
     </div>
 }
 
